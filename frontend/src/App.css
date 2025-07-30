@@ -1,0 +1,65 @@
+/* Custom styles that go beyond Tailwind */
+
+.auth-card {
+  @apply bg-white rounded-lg shadow-card p-8 w-full max-w-md;
+}
+
+.form-input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+}
+
+.btn-primary {
+  @apply w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors;
+}
+
+.btn-secondary {
+  @apply w-full bg-secondary-600 text-white py-2 px-4 rounded-md hover:bg-secondary-700 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 transition-colors;
+}
+
+.btn-danger {
+  @apply w-full bg-danger-600 text-white py-2 px-4 rounded-md hover:bg-danger-700 focus:outline-none focus:ring-2 focus:ring-danger-500 focus:ring-offset-2 transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-card p-6;
+}
+
+.sidebar-link {
+  @apply flex items-center px-4 py-2 text-gray-600 hover:bg-primary-50 hover:text-primary-700 rounded-md transition-colors;
+}
+
+.sidebar-link.active {
+  @apply bg-primary-50 text-primary-700 font-medium;
+}
+
+.alert-success {
+  @apply bg-success-100 text-success-800 p-4 rounded-md;
+}
+
+.alert-danger {
+  @apply bg-danger-100 text-danger-800 p-4 rounded-md;
+}
+
+.alert-warning {
+  @apply bg-warning-100 text-warning-800 p-4 rounded-md;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-success {
+  @apply bg-success-100 text-success-800;
+}
+
+.badge-danger {
+  @apply bg-danger-100 text-danger-800;
+}
+
+.badge-warning {
+  @apply bg-warning-100 text-warning-800;
+}
+
+.badge-info {
+  @apply bg-primary-100 text-primary-800;
+}
