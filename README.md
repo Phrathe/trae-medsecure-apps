@@ -41,8 +41,8 @@ A secure healthcare application with zero-trust architecture, blockchain-based c
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/trae-medsecure-app.git
-cd trae-medsecure-app
+git clone https://github.com/Phrathe/trae-medsecure-apps.git
+cd trae-medsecure-apps
 ```
 
 2. Install frontend dependencies
